@@ -1,0 +1,31 @@
+/* Description */
+
+
+
+.header-nav{
+    background-color: #3ebbd3;
+    height: 18vw;
+}
+.title-header{
+    color:white;
+    padding-top:5%;
+    padding-left: 5%;
+    font-size:1.5em;
+}
+
+.title_description{
+color:  #005bab;
+font-size: 6.5vw;
+}
+
+.liste_decimal{
+    list-style-type: decimal;
+}
+
+.orange{
+    background-color: #faac54;
+    border-radius: 10px;
+    color: #005bab;
+    display: block;
+    margin : auto;
+}
