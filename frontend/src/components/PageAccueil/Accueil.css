@@ -1,4 +1,32 @@
+
 .header-nav{
     background-color: #3ebbd3;
     height: 18vw;
+}
+.title-header{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 1.5em;
+}
+.proverbe{
+    width: 80%;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.proverbe h2{
+    font-size: 6vw;
+    color: #4084c0;
+}
+.proverbe h3{
+    font-size: 5vw;
+}
+.auteur-proverbe{
+    color: #4084c0;
+}
+.image-enfant{
+    width: 100%;
 }
