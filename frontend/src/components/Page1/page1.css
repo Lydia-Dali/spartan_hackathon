@@ -1,0 +1,61 @@
+/* Description */
+
+
+
+.header-nav{
+    background-color: #3ebbd3;
+    height: 18vw;
+}
+.title-header{
+    color:white;
+    padding-top:5%;
+    padding-left: 5%;
+    font-size:1.5em;
+}
+.margin{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.title_description{
+color:  #005bab;
+font-size: 6.5vw;
+}
+
+.image-diplome{
+    width:90vw;
+    margin: auto;
+    display: flex;
+    margin-top:2vw;
+}
+
+
+.liste_decimal{
+    list-style-type: decimal;
+}
+
+.bouton-orange{
+    text-align: center;
+    color: #467192;
+    }
+    .btn-warning {
+    color: #467192;
+    background-color: #FAAC54;
+    border-color: #FAAC54;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-bottom: 3vw;
+    width: 82%;
+    }
+    .p-impacter{
+    font-size: 1.3em;
+    }
+
+.subTitle_boutton{
+    text-align: center;
+    color:  #005bab;
+    font-size: 6.5vw;
+}
+.anatoleFrance{
+    background-image: url("/frontend/src/images/Anatole_France_1921.png");
+    height:100vw;
+}
