@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import { Link } from "react-router-dom";
+
 import image5 from '../../images/image_5.jpg'
 
 import './page3.css'
@@ -15,7 +17,7 @@ export default class page3 extends Component {
         </header>
         <div className="blue-container">
           <div class="container">
-            <div class="login-form">        
+            <div class="login-form">
               <form id="Login" className="login">
                 <div classN="form-group">
                   <input type="email" class="form-control" id="inputEmail" placeholder="Adresse Email" />
@@ -27,12 +29,12 @@ export default class page3 extends Component {
                   <a href="reset.html">Mot de passe oublié?</a>
                 </div>
                 <button type="submit" class="btn btn-primary">ME CONNECTER</button>
-                <button type="submit" class="btn btn-warning btn-compte">Créer un compte</button>
+                <Link to="/Page4"><button type="submit" class="btn btn-warning btn-compte">Créer un compte</button></Link>
               </form>
             </div>
           </div>
         </div>
-        <img className="image-femme-assise" src={image5} alt="femme-assise"/>
+        <img className="image-femme-assise" src={image5} alt="femme-assise" />
       </div>
     )
   }

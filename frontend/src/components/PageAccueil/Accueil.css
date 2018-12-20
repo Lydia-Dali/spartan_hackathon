@@ -35,20 +35,31 @@ p{
     margin-left: 11px;
 }
 .p-top{
-    margin-top: 11px
+    margin-top: 11px;
+    margin-right: 6px;
 }
 .bouton-orange{
     text-align: center;
     color: #467192;
+    padding-bottom: 6vw;
 }
 .btn-warning {
     color: #467192;
-    background-color: #faac54;
-    border-color: #faac54;
+    background-color: #faac54;    
     border-radius: 15px;
     font-weight: 500;
-    margin-bottom: 3vw;
-    width: 95%;
+    margin-bottom: 4vw;
+    width: 90%;
+}
+.btn-warning:hover {
+    color: white;
+    background-color: #faac54;
+    border-color: #faac54;
+}
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color: white;
+    background-color: #faac54;
+    border-color: #faac54;
 }
 .p-impacter{
     font-size: 1.3em;
