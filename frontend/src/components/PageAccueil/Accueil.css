@@ -18,8 +18,9 @@
     margin-bottom: 14px;
 }
 .proverbe h2{
-    font-size: 6vw;
+    font-size: 1.5em;
     color: #4084c0;
+    font-weight: 400;
 }
 .proverbe h3{
     font-size: 5vw;
@@ -29,4 +30,26 @@
 }
 .image-enfant{
     width: 100%;
+}
+p{
+    margin-left: 11px;
+}
+.p-top{
+    margin-top: 11px
+}
+.bouton-orange{
+    text-align: center;
+    color: #467192;
+}
+.btn-warning {
+    color: #467192;
+    background-color: #faac54;
+    border-color: #faac54;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-bottom: 3vw;
+    width: 95%;
+}
+.p-impacter{
+    font-size: 1.3em;
 }
