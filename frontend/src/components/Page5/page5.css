@@ -27,7 +27,7 @@
     font-weight: 500;
     margin-bottom: 3vw;
     width: 82%;
-    }
+    margin-top: 10px;}
     .p-impacter{
     font-size: 1.3em;
     }
@@ -36,3 +36,28 @@
     margin: auto;
     display: flex;
 }
+.totalBox1{
+    width: 15vw;
+    height: 7vw;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 4px;
+        padding-left: 4px;
+    padding-left: 61px;
+    margin-left: 10px;
+}
+
+
+.totalBox{
+    width: 15vw;
+    height: 7vw;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 4px;
+        padding-left: 4px;
+        margin-right: 10px !important;
+   }
+    
+

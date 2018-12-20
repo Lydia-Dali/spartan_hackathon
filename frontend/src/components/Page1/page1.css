@@ -22,9 +22,12 @@ font-size: 6.5vw;
 }
 
 .image-diplome{
-    width:92vw;
+    width:90vw;
+    margin: auto;
+    display: flex;
     margin-top:2vw;
 }
+
 
 .liste_decimal{
     list-style-type: decimal;
@@ -51,4 +54,8 @@ font-size: 6.5vw;
     text-align: center;
     color:  #005bab;
     font-size: 6.5vw;
+}
+.anatoleFrance{
+    background-image: url("/frontend/src/images/Anatole_France_1921.png");
+    height:100vw;
 }

@@ -1,0 +1,87 @@
+.image-profil{
+
+width:15vw;
+margin: auto;
+display: flex;
+top: -22px;
+position: relative;
+}
+
+.image-movie{
+    width:90vw;
+    margin: auto;
+    display: flex;
+}
+
+.sizeInput{
+    width:auto;
+}
+.marginRow{
+    margin: 10px;
+}
+
+.badges{
+    width:100vw;
+    display:inline-flex;
+    margin:auto;
+    justify-content: space-around;
+    
+}
+
+.badge1{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color: #c4c4c4;
+    width:10vw;
+    height:10vw;
+}
+
+.badge2{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#fbce8b;
+    width:10vw;
+    height:10vw;
+}
+.badge3{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#fd7777;
+    width:10vw;
+    height:10vw;
+}
+.badge4{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#67fb76;
+    width:10vw;
+    height:10vw;
+}
+.badge5{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#6297ff;
+    width:10vw;
+    height:10vw;
+}
+.badge6{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#b917f2;
+    width:10vw;
+    height:10vw;
+}
+.badge7{
+    -moz-border-radius: 0px 30px 30px 30px ;
+    -webkit-border-radius: 0px 30px 30px 30px ;
+    border-radius: 0px 30px 30px 30px ;
+    background-color:#2d0404;
+    width:10vw;
+    height:10vw;
+}

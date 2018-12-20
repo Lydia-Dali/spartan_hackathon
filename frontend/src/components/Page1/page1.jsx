@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './page1.css'
 import image2 from '../../images/image_page_1.jpg'
+import image2bis from '../../images/Anatole_France_1921.png'
 
 export default class page1 extends Component {
   render() {
@@ -54,6 +55,9 @@ export default class page1 extends Component {
             <p className="p-impacter">Impacter le monde !</p>
           </div>
           
+          <div className="anatoleFrance"></div>
+          <img className="image-anatole" src={image2bis} alt="Anatole_France" />
+
         </div>
         </div> 
 

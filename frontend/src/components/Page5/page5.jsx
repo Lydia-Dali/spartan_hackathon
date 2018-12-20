@@ -17,8 +17,8 @@ export default class page5 extends Component {
           <img className="image-cb" src={image6} alt="versement-cb"/>
 
           <div className="row gap">
-                    <div className="col-7 ">Montant du paiement</div>
-                    <div className="col-2 "><input className="totalBox"> 100 €</input></div>
+                    <div className="col-7 totalBox1">Montant du paiement</div>
+                    <div className="col-2 "><input className="totalBox" placeholder="100 €" /></div>
 
                     </div> 
 
