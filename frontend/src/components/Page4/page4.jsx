@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
-import image5 from "../../images/image_6.jpg";
+import { Link } from "react-router-dom";
 
 import "./page4.css";
+
+import image5 from "../../images/image_6.jpg";
 
 export default class page4 extends Component {
   render() {
@@ -49,9 +51,9 @@ export default class page4 extends Component {
                     placeholder="Retapez mot de passe"
                   />
                 </div>
-                <button type="submit" class="btn btn-warning btn-compte-compte">
+                <Link to="/Page5"><button type="submit" class="btn btn-warning btn-compte-compte">
                   CREER MON COMPTE
-                </button>
+                </button></Link>
               </form>
             </div>
           </div>

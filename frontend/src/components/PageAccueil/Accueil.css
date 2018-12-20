@@ -9,26 +9,13 @@
     padding-left: 5%;
     font-size: 1.5em;
 }
-.proverbe{
-    width: 80%;
-    margin-top: 10vw;
+.logo-centre{
+    width: 80%;    
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    margin-bottom: 14px;
+    text-align: center;    
 }
-.proverbe h2{
-    font-size: 1.5em;
-    color: #4084c0;
-    font-weight: 400;
-}
-.proverbe h3{
-    font-size: 5vw;
-}
-.auteur-proverbe{
-    color: #4084c0;
-}
-.image-enfant{
+.image-logo-centre{
     width: 100%;
 }
 p{
@@ -63,4 +50,29 @@ p{
 }
 .p-impacter{
     font-size: 1.3em;
+}
+.container-slide{
+    padding-right: 0;
+    padding-left:  0;
+}
+.row-slide{
+    margin-left: 0;
+    margin-right: 0;
+}
+.col-slide{
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-slide{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    min-height: 230px;
+}
+.slide-slogan{
+    font-weight: bold;
+    font-size:8vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #00000073;
 }
