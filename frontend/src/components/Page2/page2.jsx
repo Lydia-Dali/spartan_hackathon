@@ -19,14 +19,15 @@ export default class page2 extends Component {
           
           <div class="container-fluid">
 
-    
+          <h1 className="title_impot">Je donne mes impots</h1>
+          
                     <div className="row gap">
                     <div className="col-5 checkBox">
                      <h3>Montant</h3>
 
                      <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">1 €</label>
+    <label class="form-check-label" for="exampleCheck1">0 €</label>
   </div>
 
   <div class="form-group form-check">

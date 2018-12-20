@@ -13,6 +13,12 @@
      width:100vw;
 
 }
+
+.title_impot{
+    color:  #005bab;
+font-size: 6.5vw;
+text-align: center;
+}
 .gap{
     display: flex;
     justify-content: space-around;
@@ -21,7 +27,7 @@
     background-color: #36474f;
     height: auto;
     width:45vw;
-    border-radius: 10px;
+    
     margin-top: 10px;
     margin-bottom: 10px;
 padding-bottom: 10px;
