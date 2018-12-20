@@ -1,0 +1,75 @@
+.header-nav{
+    background-color: #3ebbd3;
+    height: 18vw;
+}
+.title-header{
+    color:white;
+    padding-top:5%;
+    padding-left: 5%;
+    font-size:1.5em;
+}
+
+.image-meeting{
+     width:100vw;
+
+}
+.gap{
+    display: flex;
+    justify-content: space-around;
+}
+.checkBox{
+    background-color: #36474f;
+    height: auto;
+    width:45vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+padding-bottom: 10px;
+}
+
+.image-location{
+    height:4vw;
+}
+.champ-total{
+    height: 6vw;
+width: 11vw;
+background-color: grey;
+position: absolute;
+right: 50px;
+}
+.align{
+    display: inline-block;
+       
+}
+
+.totalBox{
+width: 15vw;
+height: 7vw;
+background-color: grey;
+border-radius: 5px;
+
+
+}
+
+.bouton-orange{
+    text-align: center;
+    color: #467192;
+    }
+    .btn-warning {
+    color: #467192;
+    background-color: #FAAC54;
+    border-color: #FAAC54;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-bottom: 3vw;
+    width: 82%;
+    }
+    .p-impacter{
+    font-size: 1.3em;
+    }
+
+.subTitle_boutton{
+    text-align: center;
+    color:  #005bab;
+    font-size: 6.5vw;
+}
