@@ -19,8 +19,71 @@ export default class page2 extends Component {
         </header>
         <img className="image-meeting" src={image3} alt="diplomés" />
 
+          <div className="container-fluid">
+          <h1 className="title_impot">Je donne mes impots</h1>
+          
+                    <div className="row gap">
+                    <div className="col-5 checkBox">
+                     <h5 className="page2Title">Montant</h5>
 
-        <div class="container-fluid">
+                     <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">0 €</label>
+  </div>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">10 €</label>
+  </div>
+          
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">100 €</label>
+  </div>
+<p className="ceQueVousVoulez"></p>
+  <div class="form-group cashbutton">
+        <label for="money" class="col-sm-2 control-label"></label>
+        <div class="col-sm-2">
+        <select id="money1">
+          <option>200 €</option>
+          <option>250 €</option>
+          <option>500 €</option>
+          <option>1000 €</option>
+          <option>2000 €</option>
+          <option>3000 €</option>
+          <option>4000 €</option>
+
+        </select>          
+          
+        </div>
+        </div>
+
+
+
+  <div className="row gap">
+                    <div className="col-5 "></div>
+                    <div className="col-5 "></div>
+
+                    </div> 
+                    </div> 
+
+                     <div className="col-5 checkBox">
+                     <h5 className="page2Title"> Options</h5>
+                     
+                     <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">1 fois</label>
+  </div>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">Chaque mois</label>
+  </div>
+          
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
+    <label class="form-check-label" for="exampleCheck1">Reçu fiscal</label>
+  </div>
 
           <h1 className="title_impot">Je donne mes impots</h1>
 
@@ -103,7 +166,8 @@ export default class page2 extends Component {
           </div>
         </div>
       </div>
-
+      </div>
+      </div>
 
     )
   }
