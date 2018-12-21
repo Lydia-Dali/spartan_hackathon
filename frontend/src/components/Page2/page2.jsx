@@ -25,7 +25,7 @@ export default class page2 extends Component {
           
                     <div className="row gap">
                     <div className="col-5 checkBox">
-                     <h3>Montant</h3>
+                     <h5 className="page2Title">Montant</h5>
 
                      <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
@@ -71,7 +71,7 @@ export default class page2 extends Component {
                     </div> 
 
                      <div className="col-5 checkBox">
-                     <h3>Option</h3>
+                     <h5 className="page2Title"> Options</h5>
                      
                      <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>

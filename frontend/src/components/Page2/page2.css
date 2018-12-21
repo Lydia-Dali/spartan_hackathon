@@ -34,13 +34,16 @@ padding-bottom: 10px;
 }
 
 .ceQueVousVoulez{
-    
+    margin-bottom: -20px;
+
 }
 
 #money1{
-    width:9vw;
+    width:25vw;
 }
-
+.page2Title{
+    text-align: center;
+}
 
 .image-location{
     height:4vw;
