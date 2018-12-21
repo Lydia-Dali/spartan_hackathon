@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import './page2.css'
 
 import image3 from '../../images/image_page_2.jpg'
+import image4 from '../../images/gps-logo-png-1.png'
 import logoSmall from "../../images/harmonia21_small.png";
 
 export default class page2 extends Component {
@@ -19,71 +20,8 @@ export default class page2 extends Component {
         </header>
         <img className="image-meeting" src={image3} alt="diplomés" />
 
-          <div className="container-fluid">
-          <h1 className="title_impot">Je donne mes impots</h1>
-          
-                    <div className="row gap">
-                    <div className="col-5 checkBox">
-                     <h5 className="page2Title">Montant</h5>
 
-                     <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">0 €</label>
-  </div>
-
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">10 €</label>
-  </div>
-          
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">100 €</label>
-  </div>
-<p className="ceQueVousVoulez"></p>
-  <div class="form-group cashbutton">
-        <label for="money" class="col-sm-2 control-label"></label>
-        <div class="col-sm-2">
-        <select id="money1">
-          <option>200 €</option>
-          <option>250 €</option>
-          <option>500 €</option>
-          <option>1000 €</option>
-          <option>2000 €</option>
-          <option>3000 €</option>
-          <option>4000 €</option>
-
-        </select>          
-          
-        </div>
-        </div>
-
-
-
-  <div className="row gap">
-                    <div className="col-5 "></div>
-                    <div className="col-5 "></div>
-
-                    </div> 
-                    </div> 
-
-                     <div className="col-5 checkBox">
-                     <h5 className="page2Title"> Options</h5>
-                     
-                     <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">1 fois</label>
-  </div>
-
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">Chaque mois</label>
-  </div>
-          
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">Reçu fiscal</label>
-  </div>
+        <div class="container-fluid">
 
           <h1 className="title_impot">Je donne mes impots</h1>
 
@@ -124,8 +62,8 @@ export default class page2 extends Component {
               </div>
 
               <div className="row gap">
-                <div className="col-5 "><button type="button">valider</button></div>
-                <div className="col-5 "></div>
+                <div className="col-5 ">valider</div>
+                <div className="col-5 "><img className="image-location" src={image4} alt="location" /></div>
               </div>
               
             </div>
@@ -166,8 +104,7 @@ export default class page2 extends Component {
           </div>
         </div>
       </div>
-      </div>
-      </div>
+
 
     )
   }
