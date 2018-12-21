@@ -51,6 +51,11 @@ p{
 .p-impacter{
     font-size: 1.3em;
 }
+.carousel{
+    max-height: 240px;
+    position: relative;
+    overflow-y: hidden;
+}
 .container-slide{
     padding-right: 0;
     padding-left:  0;
