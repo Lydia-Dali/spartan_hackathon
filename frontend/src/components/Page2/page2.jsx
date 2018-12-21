@@ -1,19 +1,21 @@
-// Selection
+import React, { Component } from 'react'
+
+import { Link } from "react-router-dom";
+
+import './page2.css'
+
 import image3 from '../../images/image_page_2.jpg'
 import image4 from '../../images/gps-logo-png-1.png'
-import './page2.css'
-import React, { Component } from 'react'
 
 export default class page2 extends Component {
   render() {
     return (
       <div>
-          <header>
-              <div className="header-nav">
-              <h1 className="title-header">HARMONIA21.ORG</h1>
-              </div>
-          </header>   
-
+        <header>
+          <div className="header-nav">
+            <h1 className="title-header">HARMONIA21.ORG</h1>
+          </div>
+        </header>
         <img className="image-meeting" src={image3} alt="diplomés"/>
 
           
@@ -40,10 +42,24 @@ export default class page2 extends Component {
     <label class="form-check-label" for="exampleCheck1">100 €</label>
   </div>
 
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
-    <label class="form-check-label" for="exampleCheck1">Ce que vous voulez</label>
-  </div>
+  <div class="form-group">
+        <label for="money" class="col-sm-2 control-label"></label>
+        <div class="col-sm-2">
+        <select id="money1">
+          <option>Ce que vous voulez</option>
+          <option>150 €</option>
+          <option>200 €</option>
+          <option>250 €</option>
+          <option>500 €</option>
+          <option>1000 €</option>
+          <option>2000 €</option>
+          <option>3000 €</option>
+          <option>4000 €</option>
+
+        </select>          
+          
+        </div>
+        </div>
 
 
 
@@ -90,15 +106,14 @@ export default class page2 extends Component {
 
                      </div>
             </div>
-
-            <div className="bouton-orange">
-<a href="#" class="btn btn-primary btn-warning">SUIVANT </a>
-<p className="p-impacter">Impacter le monde !</p>
-</div>
-            </div>
-
+            
+          <div className="bouton-orange">
+            <Link to="/Page3"><a href="#" class="btn btn-primary btn-warning">SUIVANT</a></Link>
+            <p className="p-impacter">Impacter le monde !</p>
+          </div>
         </div>
-
+        </div>
+        
       
     )
   }

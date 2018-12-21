@@ -9,24 +9,70 @@
     padding-left: 5%;
     font-size: 1.5em;
 }
-.proverbe{
-    width: 80%;
-    margin-top: 10vw;
+.logo-centre{
+    width: 80%;    
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    margin-bottom: 14px;
+    text-align: center;    
 }
-.proverbe h2{
-    font-size: 6vw;
-    color: #4084c0;
-}
-.proverbe h3{
-    font-size: 5vw;
-}
-.auteur-proverbe{
-    color: #4084c0;
-}
-.image-enfant{
+.image-logo-centre{
     width: 100%;
+}
+p{
+    margin-left: 11px;
+}
+.p-top{
+    margin-top: 11px;
+    margin-right: 6px;
+}
+.bouton-orange{
+    text-align: center;
+    color: #467192;
+    padding-bottom: 6vw;
+}
+.btn-warning {
+    color: #467192;
+    background-color: #faac54;    
+    border-radius: 15px;
+    font-weight: 500;
+    margin-bottom: 4vw;
+    width: 90%;
+}
+.btn-warning:hover {
+    color: white;
+    background-color: #faac54;
+    border-color: #faac54;
+}
+.btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle {
+    color: white;
+    background-color: #faac54;
+    border-color: #faac54;
+}
+.p-impacter{
+    font-size: 1.3em;
+}
+.container-slide{
+    padding-right: 0;
+    padding-left:  0;
+}
+.row-slide{
+    margin-left: 0;
+    margin-right: 0;
+}
+.col-slide{
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-slide{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    min-height: 230px;
+}
+.slide-slogan{
+    font-weight: bold;
+    font-size:8vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #00000073;
 }

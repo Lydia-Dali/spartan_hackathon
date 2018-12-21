@@ -1,0 +1,90 @@
+.header-nav{
+    background-color: #3ebbd3;
+    height: 18vw;
+}
+.title-header{
+    color: white;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 1.5em;
+}
+.blue-container{
+    background-color: #005bab;
+}
+.form-heading { 
+    color:#fff; font-size:23px;
+}
+.form-group{
+    margin-bottom: 2px;
+}
+.panel h2{
+     color:#444444; font-size:18px; margin:0 0 8px 0;
+    }
+.panel p {
+     color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;
+    }
+.login-form .form-control {
+  background: white none repeat scroll 0 0;    
+  font-size: 14px;
+  height: 45px;
+  line-height: 50px;
+}
+.form-control{
+    border-radius: 0;
+}
+.main-div {
+  /* background: #ffffff none repeat scroll 0 0; */
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+}
+.login{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ 
+    text-align:center;
+}
+.forgot a {
+  color: white;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #71ea75 none repeat scroll 0 0;  
+  color: #0d6fa4;
+  border-radius: 15px;
+  font-weight: 500;
+  margin-bottom: 5vw;;
+  width: 95%;
+  font-size: 14px;  
+  height: 40px;  
+  padding: 0;
+}
+.btn-compte{
+  margin-bottom: 20vw;
+}
+.forgot {
+  text-align: right; 
+  margin-bottom:30px;
+}
+
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { 
+    text-align: left; margin-top:10px;
+}
+.back a {
+    color: #444444; font-size: 13px;text-decoration: none;
+}
+.image-femme-assise{
+    width: 100%;
+}

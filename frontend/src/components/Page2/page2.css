@@ -27,11 +27,16 @@ text-align: center;
     background-color: #36474f;
     height: auto;
     width:45vw;
-    
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 padding-bottom: 10px;
 }
+
+#money1{
+    width:9vw;
+}
+
 
 .image-location{
     height:4vw;

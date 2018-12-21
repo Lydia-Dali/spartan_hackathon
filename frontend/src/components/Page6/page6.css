@@ -35,6 +35,8 @@ position: relative;
     background-color: #c4c4c4;
     width:10vw;
     height:10vw;
+    border-color: black;
+    border-style: solid;
 }
 
 .badge2{
@@ -44,6 +46,8 @@ position: relative;
     background-color:#fbce8b;
     width:10vw;
     height:10vw;
+    border-color: #fd7777;
+    border-style: solid;
 }
 .badge3{
     -moz-border-radius: 0px 30px 30px 30px ;
@@ -52,6 +56,8 @@ position: relative;
     background-color:#fd7777;
     width:10vw;
     height:10vw;
+    border-color: #67fb76;;
+    border-style: solid;
 }
 .badge4{
     -moz-border-radius: 0px 30px 30px 30px ;
@@ -60,6 +66,8 @@ position: relative;
     background-color:#67fb76;
     width:10vw;
     height:10vw;
+    border-color:#6297ff;
+    border-style: solid;
 }
 .badge5{
     -moz-border-radius: 0px 30px 30px 30px ;
@@ -68,6 +76,8 @@ position: relative;
     background-color:#6297ff;
     width:10vw;
     height:10vw;
+    border-color:#b917f2;
+    border-style: solid;
 }
 .badge6{
     -moz-border-radius: 0px 30px 30px 30px ;
@@ -76,6 +86,8 @@ position: relative;
     background-color:#b917f2;
     width:10vw;
     height:10vw;
+    border-color:#2d0404;
+    border-style: solid;
 }
 .badge7{
     -moz-border-radius: 0px 30px 30px 30px ;
@@ -84,4 +96,6 @@ position: relative;
     background-color:#2d0404;
     width:10vw;
     height:10vw;
+    border-color:#c4c4c4;
+    border-style: solid;
 }
