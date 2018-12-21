@@ -58,12 +58,21 @@ export default class page1 extends Component {
               <p className="p-impacter">Impacter le monde !</p>
             </div>
 
-            <div className="anatoleFrance"></div>
-            <img className="image-anatole" src={image2bis} alt="Anatole_France" />
+            
 
           </div>
+          </div> 
+          <div className="anatoleFrance">
+          <p className="france">" Pour accomplir de grandes choses, il ne suffit pas uniquement d'agir, mais aussi de rêveranatoleFrance ; pas seulement de planifier mais aussi d'y croire" <br/> (Anatole France) #Harmonia21</p>
+          </div>
+          
+
         </div>
-      </div>
+       
+
+
+
+      
     )
   }
 }

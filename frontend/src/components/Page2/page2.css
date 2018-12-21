@@ -13,6 +13,12 @@
      width:100vw;
 
 }
+
+.title_impot{
+    color:  #005bab;
+font-size: 6.5vw;
+text-align: center;
+}
 .gap{
     display: flex;
     justify-content: space-around;
@@ -21,11 +27,16 @@
     background-color: #36474f;
     height: auto;
     width:45vw;
-    border-radius: 10px;
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
 padding-bottom: 10px;
 }
+
+#money1{
+    width:9vw;
+}
+
 
 .image-location{
     height:4vw;
