@@ -33,10 +33,17 @@ text-align: center;
 padding-bottom: 10px;
 }
 
-#money1{
-    width:9vw;
+.ceQueVousVoulez{
+    margin-bottom: -20px;
+
 }
 
+#money1{
+    width:25vw;
+}
+.page2Title{
+    text-align: center;
+}
 
 .image-location{
     height:4vw;

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import './page6.css'
 
 import image8 from '../../images/profil fake.png'
-import image9 from '../../images/video.jpg'
 import logoSmall from "../../images/harmonia21_small.png";
 
 export default class page6 extends Component {
@@ -18,8 +17,17 @@ export default class page6 extends Component {
             <img className="logo-harmonia-small" src={logoSmall} alt="logo-small"/>
           </div>
         </header>
-        <img className="image-profil" src={image8} alt="versement-cb" />
+        <div className="blue-container-profil">
+        <img className="image-profil" src={image8} alt="versement-cb" />           
+
         <form>
+          <div className="col">
+            <form className="row marginRow flexboxedRadios">
+              <div className="col colRadio"><input type="radio" name="gender" value="md" />Madamme</div>
+              <div className="col"><input type="radio" name="gender" value="mr" />Monsieur</div>
+            </form>
+          </div>     
+            
           <div className="row marginRow">
             <div className="col">
               <input type="text" class="form-control" placeholder="Nom *"></input>
@@ -28,6 +36,12 @@ export default class page6 extends Component {
               <input type="text" className="form-control" placeholder="Prénom *"></input>
             </div>
           </div>
+          <div className="row marginRow">
+            <div className="col">
+              <input type="text" className="form-control" placeholder="Société"></input>
+            </div>
+            </div>
+
           <div className="row marginRow">
             <div className="col">
               <input type="text" className="form-control" placeholder="Adresse 1 *"></input>
@@ -39,10 +53,10 @@ export default class page6 extends Component {
             </div>
           </div>
           <div className="row marginRow">
-            <div className="col-9">
+            <div className="col-6">
               <input type="text" className="form-control" placeholder="Ville *"></input>
             </div>
-            <div className="col-3">
+            <div className="col-6">
               <input type="text" className="form-control" placeholder="Pays *"></input>
             </div>
           </div>
@@ -63,15 +77,15 @@ export default class page6 extends Component {
             </div>
           </div>
         </form>
-
+<h1 className="title-donateur">Vos récompenses</h1>
         <div className="badges">
-          <div className="badge1"></div>
-          <div className="badge2"></div>
-          <div className="badge3"></div>
-          <div className="badge4"></div>
-          <div className="badge5"></div>
-          <div className="badge6"></div>
-          <div className="badge7"></div>
+          <div className="badge1 infobulle" aria-label="Donateur"></div>
+          <div className="badge2 infobulle" aria-label="Parrain"></div>
+          <div className="badge3 infobulle" aria-label="Ambassadeur"></div>
+          <div className="badge4 infobulle" aria-label="Bronze"></div>
+          <div className="badge5 infobulle" aria-label="Silver"></div>
+          <div className="badge6 infobulle" aria-label="Gold"></div>
+          <div className="badge7 infobulle" aria-label="Platinium"></div>
         </div>
 
         <div className="bouton-orange">
@@ -110,6 +124,7 @@ export default class page6 extends Component {
         </iframe>
 
       </div>
+    </div>
     )
   }
 }
