@@ -16,8 +16,17 @@ export default class page6 extends Component {
             <h1 className="title-header">HARMONIA21.ORG</h1>
           </div>
         </header>
+        <div className="blue-container-profil">
         <img className="image-profil" src={image8} alt="versement-cb" />
         <form>
+        <div className="row marginRow">
+            <div className="col">
+              <input type="text" class="form-control" ></input>
+            </div>
+            <div className="col">
+              <input type="text" className="form-control" ></input>
+            </div>
+          </div>
           <div className="row marginRow">
             <div className="col">
               <input type="text" class="form-control" placeholder="Nom *"></input>
@@ -26,6 +35,12 @@ export default class page6 extends Component {
               <input type="text" className="form-control" placeholder="Prénom *"></input>
             </div>
           </div>
+          <div className="row marginRow">
+            <div className="col">
+              <input type="text" className="form-control" placeholder="Société"></input>
+            </div>
+            </div>
+
           <div className="row marginRow">
             <div className="col">
               <input type="text" className="form-control" placeholder="Adresse 1 *"></input>
@@ -77,7 +92,7 @@ export default class page6 extends Component {
         </div>
 
         <img className="image-movie" src={image9} alt="movie" />
-
+        </div>
       </div>
     )
   }

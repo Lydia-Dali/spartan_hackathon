@@ -41,12 +41,12 @@ export default class page2 extends Component {
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
     <label class="form-check-label" for="exampleCheck1">100 €</label>
   </div>
-
+<p className="ceQueVousVoulez">Ce que vous voulez</p>
   <div class="form-group">
         <label for="money" class="col-sm-2 control-label"></label>
         <div class="col-sm-2">
         <select id="money1">
-          <option>Ce que vous voulez</option>
+         
           <option>150 €</option>
           <option>200 €</option>
           <option>250 €</option>

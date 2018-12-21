@@ -13,6 +13,10 @@ position: relative;
     display: flex;
 }
 
+.blue-container-profil{
+    background-color: #dbe5ed;
+}
+
 .sizeInput{
     width:auto;
 }
