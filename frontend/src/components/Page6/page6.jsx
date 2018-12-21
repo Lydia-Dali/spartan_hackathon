@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import './page6.css'
 
 import image8 from '../../images/profil fake.png'
-import image9 from '../../images/video.jpg'
+
 
 export default class page6 extends Component {
   render() {

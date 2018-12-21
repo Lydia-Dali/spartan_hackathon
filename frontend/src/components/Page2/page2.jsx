@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import './page2.css'
 
 import image3 from '../../images/image_page_2.jpg'
-import image4 from '../../images/gps-logo-png-1.png'
-
 export default class page2 extends Component {
   render() {
     return (
@@ -41,13 +39,11 @@ export default class page2 extends Component {
     <input type="checkbox" class="form-check-input" id="exampleCheck1"></input>
     <label class="form-check-label" for="exampleCheck1">100 €</label>
   </div>
-<p className="ceQueVousVoulez">Ce que vous voulez</p>
-  <div class="form-group">
+<p className="ceQueVousVoulez"></p>
+  <div class="form-group cashbutton">
         <label for="money" class="col-sm-2 control-label"></label>
         <div class="col-sm-2">
         <select id="money1">
-         
-          <option>150 €</option>
           <option>200 €</option>
           <option>250 €</option>
           <option>500 €</option>
@@ -64,8 +60,8 @@ export default class page2 extends Component {
 
 
   <div className="row gap">
-                    <div className="col-5 ">valider</div>
-                    <div className="col-5 "><img className="image-location" src={image4} alt="location"/></div>
+                    <div className="col-5 "></div>
+                    <div className="col-5 "></div>
 
                     </div> 
                     </div> 
