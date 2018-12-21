@@ -17,7 +17,7 @@ export default class page2 extends Component {
         <img className="image-meeting" src={image3} alt="diplomés"/>
 
           
-          <div class="container-fluid">
+          <div className="container-fluid">
 
           <h1 className="title_impot">Je donne mes impots</h1>
           
