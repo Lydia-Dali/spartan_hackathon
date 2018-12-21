@@ -97,15 +97,15 @@ export default class page6 extends Component {
             </div>
           </div>
         </form>
-<h1 className="title-donateur">Niveau donateur</h1>
+<h1 className="title-donateur">Vos récompenses</h1>
         <div className="badges">
           <div className="badge1 infobulle" aria-label="Donateur"></div>
           <div className="badge2 infobulle" aria-label="Parrain"></div>
           <div className="badge3 infobulle" aria-label="Ambassadeur"></div>
-          <div className="badge4 infobulle" aria-label="Ambassadeur bronze"></div>
-          <div className="badge5 infobulle" aria-label="Ambassadeur silver"></div>
-          <div className="badge6 infobulle" aria-label="Ambassadeur gold"></div>
-          <div className="badge7 infobulle" aria-label="Ambassadeur platinium"></div>
+          <div className="badge4 infobulle" aria-label="Bronze"></div>
+          <div className="badge5 infobulle" aria-label="Silver"></div>
+          <div className="badge6 infobulle" aria-label="Gold"></div>
+          <div className="badge7 infobulle" aria-label="Platinium"></div>
         </div>
 
         <div className="bouton-orange">
