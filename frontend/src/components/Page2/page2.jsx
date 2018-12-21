@@ -48,7 +48,6 @@ export default class page2 extends Component {
                 <label for="money" class="col-sm-2 control-label"></label>
                 <div class="col-sm-2">
                   <select id="money1">
-                    <option>Ce que vous voulez</option>
                     <option>150 €</option>
                     <option>200 €</option>
                     <option>250 €</option>
@@ -62,8 +61,8 @@ export default class page2 extends Component {
               </div>
 
               <div className="row gap">
-                <div className="col-5 ">valider</div>
-                <div className="col-5 "><img className="image-location" src={image4} alt="location" /></div>
+                <div className="col-5 "></div>
+                <div className="col-5 "></div>
               </div>
               
             </div>
