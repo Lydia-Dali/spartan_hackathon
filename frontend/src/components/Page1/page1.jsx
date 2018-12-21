@@ -5,15 +5,17 @@ import { Link } from "react-router-dom";
 import './page1.css'
 
 import image2 from '../../images/image_page_1.jpg'
-import image2bis from '../../images/Anatole_France_1921.png'
+import imageAnatole from '../../images/anatole-france.png'
+import logoSmall from "../../images/harmonia21_small.png";
 
 export default class page1 extends Component {
   render() {
     return (
-      <div>
+      <div className="min-view">
         <header>
           <div className="header-nav">
             <h1 className="title-header">HARMONIA21.ORG</h1>
+            <img className="logo-harmonia-small" src={logoSmall} alt="logo-small"/>
           </div>
         </header>
         <div className="margin">
@@ -50,7 +52,7 @@ export default class page1 extends Component {
             <h1 className="title_description">Une bourse starter</h1>
             <p>Pour aider chaque élève Harmonia21 donne une bourse en capital d'amorçage complémentaire au financement participatif de l'étudiant ainsi qu'un cautionnement bancaire si nécessaire.
                 Chaque étudiant démarre sont projet avec 10 000 € son site internet et son application web.
-  
+
                     </p>
 
             <div className="bouton-orange">
@@ -58,21 +60,18 @@ export default class page1 extends Component {
               <p className="p-impacter">Impacter le monde !</p>
             </div>
 
-            
-
           </div>
-          </div> 
-          <div className="anatoleFrance">
-          <p className="france">" Pour accomplir de grandes choses, il ne suffit pas uniquement d'agir, mais aussi de rêveranatoleFrance ; pas seulement de planifier mais aussi d'y croire" <br/> (Anatole France) #Harmonia21</p>
-          </div>
-          
-
         </div>
-       
 
+        <div className="global-anatole">
+          <img className="image-anatole" src={imageAnatole} alt="anatole-france" />
+          <div className="anatoleFrance">
+            <p className="france">" Pour accomplir de grandes choses, il ne suffit pas uniquement d'agir, mais aussi de rêver Anatole France, pas seulement de planifier mais aussi d'y croire" <br /> (Anatole France) #Harmonia21</p>
+          </div>
+        </div>
 
+      </div>
 
-      
     )
   }
 }

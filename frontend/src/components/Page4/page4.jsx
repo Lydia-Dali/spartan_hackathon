@@ -4,15 +4,18 @@ import { Link } from "react-router-dom";
 
 import "./page4.css";
 
-import image5 from "../../images/image_6.jpg";
+import image5 from "../../images/welcome.jpg";
+import logoSmall from "../../images/harmonia21_small.png";
+
 
 export default class page4 extends Component {
   render() {
     return (
-      <div>
+      <div className="min-view">
         <header>
           <div className="header-nav">
             <h1 className="title-header">HARMONIA21.ORG</h1>
+            <img className="logo-harmonia-small" src={logoSmall} alt="logo-small"/>
           </div>
         </header>
         <div className="blue-container">
@@ -51,9 +54,14 @@ export default class page4 extends Component {
                     placeholder="Retapez mot de passe"
                   />
                 </div>
-                <Link to="/Page5"><button type="submit" class="btn btn-warning btn-compte-compte">
-                  CREER MON COMPTE
-                </button></Link>
+                <Link to="/Page5">
+                  <button
+                    type="submit"
+                    class="btn btn-warning-compte btn-compte-compte"
+                  >
+                    CREER MON COMPTE
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

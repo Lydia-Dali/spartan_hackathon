@@ -23,7 +23,7 @@
 .panel p {
      color:#777777; font-size:14px; margin-bottom:30px; line-height:24px;
     }
-.login-form .form-control {
+.login-form-compte .form-control {
   background: white none repeat scroll 0 0;    
   font-size: 14px;
   height: 45px;
@@ -45,11 +45,12 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
+    text-align: center;
 }
-.login-form .form-group {
+.login-form-compte .form-group {
   margin-bottom:10px;
 }
-.login-form{ 
+.login-form-compte{ 
     text-align:center;
 }
 .forgot a {
@@ -57,7 +58,7 @@
   font-size: 14px;
   text-decoration: underline;
 }
-.login-form  .btn.btn-primary {
+.login-form-compte  .btn.btn-primary {
   background: #71ea75 none repeat scroll 0 0;  
   color: #0d6fa4;
   border-radius: 15px;
@@ -76,7 +77,7 @@
   margin-bottom:30px;
 }
 
-.login-form .btn.btn-primary.reset {
+.login-form-compte .btn.btn-primary.reset {
   background: #ff9900 none repeat scroll 0 0;
 }
 .back { 

@@ -6,14 +6,16 @@ import './page6.css'
 
 import image8 from '../../images/profil fake.png'
 import image9 from '../../images/video.jpg'
+import logoSmall from "../../images/harmonia21_small.png";
 
 export default class page6 extends Component {
   render() {
     return (
-      <div>
+      <div className="min-view">
         <header>
           <div className="header-nav">
             <h1 className="title-header">HARMONIA21.ORG</h1>
+            <img className="logo-harmonia-small" src={logoSmall} alt="logo-small"/>
           </div>
         </header>
         <img className="image-profil" src={image8} alt="versement-cb" />
@@ -73,10 +75,39 @@ export default class page6 extends Component {
         </div>
 
         <div className="bouton-orange">
-          <Link to="/Page7"><a href="#" class="btn btn-primary btn-warning">VALIDER </a></Link>
+          <Link to="/Page7"><a href="#myModal" class="btn btn-primary btn-warning trigger-btn" data-toggle="modal">VALIDER </a></Link>
         </div>
 
-        <img className="image-movie" src={image9} alt="movie" />
+        <div id="myModal" class="modal fade">
+          <div class="modal-dialog modal-confirm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="icon-box">
+                  <h4 className="text-center">1</h4>
+                </div>
+              </div>
+              <div class="modal-body">
+                <h6 className="text-center">Niveau Donateur</h6>
+                <h4 class="modal-title">Merci pour votre Don !</h4>
+                <p class="text-center">Contrôlez vos emails, afin de récupérer votre reçu fiscal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-success btn-block" data-dismiss="modal" onClick={() => this.props.history.push("/Page7")}>OK</button>
+              </div>
+            </div>
+          </div>
+        </div>       
+
+        <iframe
+          className="video-université" 
+          width="100%" 
+          height="240px" 
+          margin-bottom="20px"
+          src="https://www.youtube.com/embed/wFkp87xtft8" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
 
       </div>
     )

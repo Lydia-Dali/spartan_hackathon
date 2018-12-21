@@ -6,22 +6,23 @@ import imageLogo from "../../images/logo-Harmonia21.png";
 import imageEnfant from "../../images/image_accueil2.jpg";
 import imageMontagne1 from "../../images/harmonia21.png";
 import imageMontagne2 from "../../images/harmonia21_2.png";
-
+import logoSmall from "../../images/harmonia21_small.png";
 
 import "./Accueil.css";
 
 export default class Accueil extends Component {
   render() {
     return (
-      <div>
+      <div className="min-view">
         <header>
           <div className="header-nav">
             <h1 className="title-header">HARMONIA21.ORG</h1>
+            <img className="logo-harmonia-small" src={logoSmall} alt="logo-small"/>
           </div>
         </header>
         <div className="logo-centre">
-          <img className="image-logo-centre" src={imageLogo} alt="enfant" />          
-        </div>        
+          <img className="image-logo-centre" src={imageLogo} alt="enfant" />
+        </div>
         <div class="container container-slide">
           <div class="row row-slide">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-slide">
@@ -53,7 +54,7 @@ export default class Accueil extends Component {
                       src={imageEnfant}
                       alt="First Slide"
                     />
-                    <div class="carousel-caption">                      
+                    <div class="carousel-caption">
                       <p className="slide-slogan">Tout le monde a le droit au bohneur.</p>
                     </div>
                   </div>
@@ -62,7 +63,7 @@ export default class Accueil extends Component {
                     <img className="img-slide"
                       src={imageMontagne1}
                       alt="Second Slide"
-                    />                    
+                    />
                   </div>
 
                   <div class="carousel-item">

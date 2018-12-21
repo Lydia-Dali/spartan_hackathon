@@ -19,6 +19,7 @@
 .title_description{
 color:  #005bab;
 font-size: 6.5vw;
+margin-top: 4vw;
 }
 
 .image-diplome{
@@ -48,6 +49,7 @@ font-size: 6.5vw;
     }
     .p-impacter{
     font-size: 1.3em;
+    margin-bottom: 0;
     }
 
 .subTitle_boutton{
@@ -55,28 +57,32 @@ font-size: 6.5vw;
     color:  #005bab;
     font-size: 6.5vw;
 }
-.anatoleFrance{
-    background-image: url("../../images/Anatole_France_1921.png");
-    height: 75vw;
-    background-size: cover;
-    background-position: 25% 72%;
-    margin-left:1px;
-    margin-right: 1px;
-    display: flex;
-    margin-top:2vw;
-    width:90vw;
-    
+
+.global-anatole{
+    position: relative;    
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 8vw;
 }
-
+.image-anatole{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+.anatoleFrance{
+    position: absolute;
+    right: 15%;
+    bottom: 15px;
+    left: 15%;
+    z-index: 10;      
+    color: #dedacf;
+    text-align: center;
+}
 .france{
-
-    color: #005dff;
-    font-size: 16px;
-    background-color: #fff9;
-    margin-top: 34px;
-    margin-right: 25px;
-    margin-bottom: 40px;
-    margin-left: 25px;
-    position: inherit;
-
+    font-weight: 500;
+    font-size: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color: #3e3b3b7a;
 }

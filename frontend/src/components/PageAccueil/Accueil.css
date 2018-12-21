@@ -1,7 +1,12 @@
-
+.min-view{
+    min-height: 100vh;
+}
 .header-nav{
     background-color: #3ebbd3;
     height: 18vw;
+    width: 100%;
+    display: inline-flex;
+    
 }
 .title-header{
     color: white;
@@ -9,17 +14,24 @@
     padding-left: 5%;
     font-size: 1.5em;
 }
+.logo-harmonia-small{
+    vertical-align: middle;
+    display: table-cell;
+    width: 18%; 
+    margin-left: 9%;
+}
 .logo-centre{
     width: 80%;    
     margin-left: auto;
     margin-right: auto;
-    text-align: center;    
+    text-align: center;       
 }
 .image-logo-centre{
     width: 100%;
 }
 p{
     margin-left: 11px;
+    margin-right: 11px;
 }
 .p-top{
     margin-top: 11px;
@@ -28,7 +40,7 @@ p{
 .bouton-orange{
     text-align: center;
     color: #467192;
-    padding-bottom: 6vw;
+    padding-bottom: 4vw;
 }
 .btn-warning {
     color: #467192;
@@ -76,8 +88,19 @@ p{
 }
 .slide-slogan{
     font-weight: bold;
-    font-size:8vw;
+    font-size: 5vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    background-color: #00000073;
+    background-color: #fdf9f9ad;
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;    
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2196F3;
+    text-align: center;
+    top: 4px;
 }
