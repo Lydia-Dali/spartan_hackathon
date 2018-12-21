@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import './page2.css'
 
 import image3 from '../../images/image_page_2.jpg'
-import image4 from '../../images/gps-logo-png-1.png'
 import logoSmall from "../../images/harmonia21_small.png";
 
 export default class page2 extends Component {
@@ -62,8 +61,8 @@ export default class page2 extends Component {
               </div>
 
               <div className="row gap">
-                <div className="col-5 ">valider</div>
-                <div className="col-5 "><img className="image-location" src={image4} alt="location" /></div>
+                <div className="col-5 "><button type="button">valider</button></div>
+                <div className="col-5 "></div>
               </div>
               
             </div>
